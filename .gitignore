@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Temporary and test database files
+*test*.db
+tests/*.db
+
+# Environments
+.env
+venv/
+env/
+ENV/
+
+# Streamlit local settings
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
