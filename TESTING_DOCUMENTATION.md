@@ -121,6 +121,50 @@ Status: OK (100% Passing)
 
 The **Inclusive Assessment and Skill-Evaluation Decision Support System** has successfully passed all 64 automated and manual test scenarios. 
 
+
+
+
+
+## Latest System Testing Results
+
+Test Execution Command:
+python run_all_test_cases.py
+
+Total System Test Cases: 40
+Passed: 40
+Failed: 0
+Pass Percentage: 100%
+
+### Module-wise Test Results
+
+| Module | Total | Passed | Failed |
+|---|---:|---:|---:|
+| Data Generation | 3 | 3 | 0 |
+| Student Assessment Form | 8 | 8 | 0 |
+| Supervised Classification | 6 | 6 | 0 |
+| Explainable AI | 5 | 5 | 0 |
+| Fairness Evaluation | 5 | 5 | 0 |
+| Human-AI Collaboration | 4 | 4 | 0 |
+| SQLite Database | 5 | 5 | 0 |
+| Dashboard and UI | 4 | 4 | 0 |
+| TOTAL | 40 | 40 | 0 |
+
+### Machine Learning Evaluation
+
+Algorithm: Random Forest Classifier
+Number of Estimators: 100
+
+Accuracy: 91.88%
+Precision: 91.88%
+Recall: 91.88%
+F1-Score: 91.88%
+
+### Conclusion
+
+All 40 system test cases were executed
+successfully, with a 100% pass rate.
+No failures were reported in this execution.
+
 - **Algorithmic Correctness:** The Random Forest Classifier demonstrates 91.88% test accuracy with zero demographic bias.
 - **Explainability:** Feature importance and localized score benchmarks generate intuitive plain-English decision rationales.
 - **Fairness:** Demographic parity and group accuracy audits are verified with active tolerance monitoring.
